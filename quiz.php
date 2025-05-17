@@ -1,5 +1,5 @@
 <?php
-
+$kontol;
 // Mengambil data JSON dari request jika ada
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['nama']) && isset($_POST['score'])) {
     // Mengambil nama dan skor dari request
